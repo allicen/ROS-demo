@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -80,17 +92,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -112,17 +123,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -168,154 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+talkers/CMakeFiles/subscriber.dir/rule:
+	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/subscriber.dir/rule
+.PHONY : talkers/CMakeFiles/subscriber.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+subscriber: talkers/CMakeFiles/subscriber.dir/rule
 
-.PHONY : roscpp_generate_messages_nodejs
+.PHONY : subscriber
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make talkers/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : talkers/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: talkers/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/roscpp_generate_messages_eus.dir/build.make talkers/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make talkers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make talkers/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make talkers/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make talkers/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : talkers/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: talkers/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/roscpp_generate_messages_py.dir/build.make talkers/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make talkers/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make talkers/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make talkers/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
+subscriber/fast:
+	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/subscriber.dir/build.make talkers/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 # Convenience name for target.
 talkers/CMakeFiles/publisher.dir/rule:
@@ -331,21 +196,6 @@ publisher: talkers/CMakeFiles/publisher.dir/rule
 publisher/fast:
 	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/publisher.dir/build.make talkers/CMakeFiles/publisher.dir/build
 .PHONY : publisher/fast
-
-# Convenience name for target.
-talkers/CMakeFiles/subscriber.dir/rule:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 talkers/CMakeFiles/subscriber.dir/rule
-.PHONY : talkers/CMakeFiles/subscriber.dir/rule
-
-# Convenience name for target.
-subscriber: talkers/CMakeFiles/subscriber.dir/rule
-
-.PHONY : subscriber
-
-# fast build rule for target.
-subscriber/fast:
-	cd /home/e/ROS-demo/simple/workspace/build && $(MAKE) -f talkers/CMakeFiles/subscriber.dir/build.make talkers/CMakeFiles/subscriber.dir/build
-.PHONY : subscriber/fast
 
 src/publisher.o: src/publisher.cpp.o
 
@@ -408,23 +258,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_cpp"
 	@echo "... install"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... list_install_components"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... edit_cache"
-	@echo "... publisher"
 	@echo "... subscriber"
+	@echo "... publisher"
+	@echo "... install/local"
 	@echo "... test"
+	@echo "... list_install_components"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"

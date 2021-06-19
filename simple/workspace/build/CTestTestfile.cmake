@@ -7,5 +7,7 @@
 subdirs("gtest")
 subdirs("hello")
 subdirs("my_message")
+subdirs("my_service")
+subdirs("client_server")
 subdirs("talkers")
 subdirs("writer_my_message")

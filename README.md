@@ -36,6 +36,7 @@
 <p>Собрать пакет: <code>catkin_make</code> (вызвать из workspace)</p>
 <p>Создать пакет для С++: <code>catkin_create_pkg talkers roscpp</code></p>
 <p>Просмотр файла: <code>gedit talkers/package.xml</code></p>
+<p>Создать пакет сразу с зависимостями <code>catkin_create_pkg my_service message_generation message_runtime</code></p>
 
 <h4>Запуск ноды</h4>
 <code>
@@ -50,5 +51,13 @@
 <p>Просмотр всех сообщений: <code>rosmsg list</code></p>
 <p>Свои сообщения сохранять в папке <code>msg</code> внутри пакета</p>
 
+<h4>Создание сервиса</h4>
+<p>Все сервисы располагаются внутри пакета в папке <code>srv</code></p>
+<p>Просмотр сервиса <code>rossrv show my_service/AddInts</code> (AddInts - название сервиса)</p>
+<p>Команда <code>rossrv</code> работает с типами. <code>rossrv list</code> выведет все сервисы, которые есть в ROS</p>
+<p>Команда <code>service list</code> выводит сервисы, которые используются в данный момент эмуляции.</p>
+<p>Вызвать сервис <code>rosservice call /add_two_ints "first: 10 second: 52"</code> (add_two_ints - функция, в кавычувх шаблонные поля)</p>
+
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>
+<p>Вызвать шаблон - двойной Tab</p>
