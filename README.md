@@ -48,6 +48,7 @@
 
 <h4>Сообщения</h4>
 <p>Просмотр всех сообщений: <code>rosmsg list</code></p>
+<p>Свои сообщения сохранять в папке <code>msg</code> внутри пакета</p>
 
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>

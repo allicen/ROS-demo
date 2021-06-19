@@ -1,2 +1,2 @@
-hello:talkers
+hello:my_message:talkers:writer_my_message
 -DCATKIN_DEVEL_PREFIX=/home/e/ROS-demo/simple/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/e/ROS-demo/simple/workspace/install -G Unix Makefiles

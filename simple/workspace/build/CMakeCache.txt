@@ -290,6 +290,24 @@ catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/melodic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/melodic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/melodic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/melodic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/e/ROS-demo/simple/workspace/build/gtest/googlemock
 
@@ -348,8 +366,20 @@ hello_SOURCE_DIR:STATIC=/home/e/ROS-demo/simple/workspace/src/hello
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//Value Computed by CMake
+my_message_BINARY_DIR:STATIC=/home/e/ROS-demo/simple/workspace/build/my_message
+
+//The directory containing a CMake configuration file for my_message.
+my_message_DIR:PATH=/home/e/ROS-demo/simple/workspace/devel/share/my_message/cmake
+
+//Value Computed by CMake
+my_message_SOURCE_DIR:STATIC=/home/e/ROS-demo/simple/workspace/src/my_message
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -377,6 +407,12 @@ talkers_BINARY_DIR:STATIC=/home/e/ROS-demo/simple/workspace/build/talkers
 
 //Value Computed by CMake
 talkers_SOURCE_DIR:STATIC=/home/e/ROS-demo/simple/workspace/src/talkers
+
+//Value Computed by CMake
+writer_my_message_BINARY_DIR:STATIC=/home/e/ROS-demo/simple/workspace/build/writer_my_message
+
+//Value Computed by CMake
+writer_my_message_SOURCE_DIR:STATIC=/home/e/ROS-demo/simple/workspace/src/writer_my_message
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -491,7 +527,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
