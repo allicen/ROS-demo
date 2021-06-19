@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/e/ROS-demo/simple/workspace/build/my_message/cmake_install.cmake")
   include("/home/e/ROS-demo/simple/workspace/build/my_service/cmake_install.cmake")
   include("/home/e/ROS-demo/simple/workspace/build/client_server/cmake_install.cmake")
+  include("/home/e/ROS-demo/simple/workspace/build/rviz_manip/cmake_install.cmake")
   include("/home/e/ROS-demo/simple/workspace/build/talkers/cmake_install.cmake")
   include("/home/e/ROS-demo/simple/workspace/build/writer_my_message/cmake_install.cmake")
 

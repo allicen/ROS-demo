@@ -1670,7 +1670,7 @@ clean: client_server/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 client_server/CMakeFiles/server.dir/all:
 	$(MAKE) -f client_server/CMakeFiles/server.dir/build.make client_server/CMakeFiles/server.dir/depend
 	$(MAKE) -f client_server/CMakeFiles/server.dir/build.make client_server/CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=32,33 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=34,35 "Built target server"
 .PHONY : client_server/CMakeFiles/server.dir/all
 
 # Include target in all.
@@ -1898,6 +1898,61 @@ clean: client_server/CMakeFiles/client.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory rviz_manip
+
+# Convenience name for "all" pass in the directory.
+rviz_manip/all: rviz_manip/CMakeFiles/publish_point.dir/all
+
+.PHONY : rviz_manip/all
+
+# Convenience name for "clean" pass in the directory.
+rviz_manip/clean: rviz_manip/CMakeFiles/publish_point.dir/clean
+
+.PHONY : rviz_manip/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rviz_manip/preinstall:
+
+.PHONY : rviz_manip/preinstall
+
+#=============================================================================
+# Target rules for target rviz_manip/CMakeFiles/publish_point.dir
+
+# All Build rule for target.
+rviz_manip/CMakeFiles/publish_point.dir/all:
+	$(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/depend
+	$(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=28,29 "Built target publish_point"
+.PHONY : rviz_manip/CMakeFiles/publish_point.dir/all
+
+# Include target in all.
+all: rviz_manip/CMakeFiles/publish_point.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+rviz_manip/CMakeFiles/publish_point.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/e/ROS-demo/simple/workspace/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 rviz_manip/CMakeFiles/publish_point.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/e/ROS-demo/simple/workspace/build/CMakeFiles 0
+.PHONY : rviz_manip/CMakeFiles/publish_point.dir/rule
+
+# Convenience name for target.
+publish_point: rviz_manip/CMakeFiles/publish_point.dir/rule
+
+.PHONY : publish_point
+
+# clean rule for target.
+rviz_manip/CMakeFiles/publish_point.dir/clean:
+	$(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/clean
+.PHONY : rviz_manip/CMakeFiles/publish_point.dir/clean
+
+# clean rule for target.
+clean: rviz_manip/CMakeFiles/publish_point.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory talkers
 
 # Convenience name for "all" pass in the directory.
@@ -1924,7 +1979,7 @@ talkers/preinstall:
 talkers/CMakeFiles/subscriber.dir/all:
 	$(MAKE) -f talkers/CMakeFiles/subscriber.dir/build.make talkers/CMakeFiles/subscriber.dir/depend
 	$(MAKE) -f talkers/CMakeFiles/subscriber.dir/build.make talkers/CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=34,35 "Built target subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=36,37 "Built target subscriber"
 .PHONY : talkers/CMakeFiles/subscriber.dir/all
 
 # Include target in all.
@@ -1961,7 +2016,7 @@ clean: talkers/CMakeFiles/subscriber.dir/clean
 talkers/CMakeFiles/publisher.dir/all:
 	$(MAKE) -f talkers/CMakeFiles/publisher.dir/build.make talkers/CMakeFiles/publisher.dir/depend
 	$(MAKE) -f talkers/CMakeFiles/publisher.dir/build.make talkers/CMakeFiles/publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=28,29 "Built target publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=30,31 "Built target publisher"
 .PHONY : talkers/CMakeFiles/publisher.dir/all
 
 # Include target in all.
@@ -2018,7 +2073,7 @@ writer_my_message/preinstall:
 writer_my_message/CMakeFiles/writer.dir/all:
 	$(MAKE) -f writer_my_message/CMakeFiles/writer.dir/build.make writer_my_message/CMakeFiles/writer.dir/depend
 	$(MAKE) -f writer_my_message/CMakeFiles/writer.dir/build.make writer_my_message/CMakeFiles/writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=36,37 "Built target writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=38,39 "Built target writer"
 .PHONY : writer_my_message/CMakeFiles/writer.dir/all
 
 # Include target in all.
@@ -2055,7 +2110,7 @@ clean: writer_my_message/CMakeFiles/writer.dir/clean
 writer_my_message/CMakeFiles/reader.dir/all:
 	$(MAKE) -f writer_my_message/CMakeFiles/reader.dir/build.make writer_my_message/CMakeFiles/reader.dir/depend
 	$(MAKE) -f writer_my_message/CMakeFiles/reader.dir/build.make writer_my_message/CMakeFiles/reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=30,31 "Built target reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/e/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=32,33 "Built target reader"
 .PHONY : writer_my_message/CMakeFiles/reader.dir/all
 
 # Include target in all.

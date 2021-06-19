@@ -105,6 +105,14 @@
 /home/e/ROS-demo/simple/workspace/build/client_server/CMakeFiles/client.dir
 /home/e/ROS-demo/simple/workspace/build/client_server/CMakeFiles/test.dir
 /home/e/ROS-demo/simple/workspace/build/client_server/CMakeFiles/rebuild_cache.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/install/strip.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/install/local.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/test.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/list_install_components.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/publish_point.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/install.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/edit_cache.dir
+/home/e/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/rebuild_cache.dir
 /home/e/ROS-demo/simple/workspace/build/talkers/CMakeFiles/install/strip.dir
 /home/e/ROS-demo/simple/workspace/build/talkers/CMakeFiles/install.dir
 /home/e/ROS-demo/simple/workspace/build/talkers/CMakeFiles/subscriber.dir

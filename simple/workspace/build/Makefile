@@ -831,6 +831,19 @@ client/fast:
 .PHONY : client/fast
 
 #=============================================================================
+# Target rules for targets named publish_point
+
+# Build rule for target.
+publish_point: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publish_point
+.PHONY : publish_point
+
+# fast build rule for target.
+publish_point/fast:
+	$(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/build
+.PHONY : publish_point/fast
+
+#=============================================================================
 # Target rules for targets named subscriber
 
 # Build rule for target.
@@ -946,6 +959,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... client"
+	@echo "... publish_point"
 	@echo "... subscriber"
 	@echo "... publisher"
 	@echo "... writer"

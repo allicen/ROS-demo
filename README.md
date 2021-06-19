@@ -58,6 +58,10 @@
 <p>Команда <code>service list</code> выводит сервисы, которые используются в данный момент эмуляции.</p>
 <p>Вызвать сервис <code>rosservice call /add_two_ints "first: 10 second: 52"</code> (add_two_ints - функция, в кавычувх шаблонные поля)</p>
 
+<h4>rViz</h4>
+<p>Запустить ноду <code>rosrun rviz rviz</code></p>
+<p>Shift+мышь - перемещение вверх/вниз</p>
+
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>
 <p>Вызвать шаблон - двойной Tab</p>
