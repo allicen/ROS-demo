@@ -1,0 +1,8 @@
+prefix=/home/e/ROS-demo/simple/workspace/devel
+
+Name: writer_my_message
+Description: Description of writer_my_message
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
