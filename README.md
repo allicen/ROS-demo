@@ -62,6 +62,20 @@
 <p>Запустить ноду <code>rosrun rviz rviz</code></p>
 <p>Shift+мышь - перемещение вверх/вниз</p>
 
+<h4>Launch-файл</h4>
+<p>Указываются ноды, которые будут запущены.</p>
+<p>Пример файла:</p>
+<pre>
+&lt;launch&gt;
+   &lt;node pkg="turtlesim" type="turtlesim_node" name="turtle" /&gt;
+   &lt;node pkg="turtlesim" type="turtle_teleop_key" name="teleop" /&gt;
+&lt;/launch&gt;
+</pre>
+<p>Автоматически запускает roscore.</p>
+
+<h4>Пакет преобразований TF</h4>
+<p>Преобразует координаты одного объекта в координаты другого</p>
+
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>
 <p>Вызвать шаблон - двойной Tab</p>
