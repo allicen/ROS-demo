@@ -72,6 +72,17 @@
 &lt;/launch&gt;
 </pre>
 <p>Автоматически запускает roscore.</p>
+<p>Запкск файла: <code>roslaunch talkers run.launch</code> (из <code>workspace</code>)</p>
+
+<h4>Gazebo</h4>
+<p>Документация:</p>
+<ul>
+    <li><a href="http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros">Установка gazebo_ros_pkgs</a></li>
+</ul>
+<p>Установка Gazebo: <code>sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control</code></p>
+<p>Склонировать репозиторий в workspace/src: <code>git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b melodic-devel</code></p>
+<p>Собрать проект <code>catkin_make</code></p>
+<p>Запустить <code>roscore</code> и gazebo: <code>rosrun gazebo_ros gazebo</code></p>
 
 <h4>Пакет преобразований TF</h4>
 <p>Преобразует координаты одного объекта в координаты другого</p>
