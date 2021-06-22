@@ -39,13 +39,13 @@
 <p>Создать пакет сразу с зависимостями <code>catkin_create_pkg my_service message_generation message_runtime</code></p>
 
 <h4>Запуск ноды</h4>
-<code>
+<pre>
 	catkin_make
 	roscore
 	rosrun turtlesim turtlesim_node
 	source devel/setup.bash // чтобы находить путь
 	rosrun talkers publisher
-</code>
+</pre>
 
 <h4>Сообщения</h4>
 <p>Просмотр всех сообщений: <code>rosmsg list</code></p>
