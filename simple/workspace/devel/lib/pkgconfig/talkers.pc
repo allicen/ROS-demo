@@ -1,4 +1,4 @@
-prefix=/home/e/ROS-demo/simple/workspace/devel
+prefix=/workspace/simple/workspace/devel
 
 Name: talkers
 Description: Description of talkers

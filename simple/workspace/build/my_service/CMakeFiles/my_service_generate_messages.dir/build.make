@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e/ROS-demo/simple/workspace/src
+CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e/ROS-demo/simple/workspace/build
+CMAKE_BINARY_DIR = /workspace/simple/workspace/build
 
 # Utility rule file for my_service_generate_messages.
 
@@ -63,10 +63,10 @@ my_service/CMakeFiles/my_service_generate_messages.dir/build: my_service_generat
 .PHONY : my_service/CMakeFiles/my_service_generate_messages.dir/build
 
 my_service/CMakeFiles/my_service_generate_messages.dir/clean:
-	cd /home/e/ROS-demo/simple/workspace/build/my_service && $(CMAKE_COMMAND) -P CMakeFiles/my_service_generate_messages.dir/cmake_clean.cmake
+	cd /workspace/simple/workspace/build/my_service && $(CMAKE_COMMAND) -P CMakeFiles/my_service_generate_messages.dir/cmake_clean.cmake
 .PHONY : my_service/CMakeFiles/my_service_generate_messages.dir/clean
 
 my_service/CMakeFiles/my_service_generate_messages.dir/depend:
-	cd /home/e/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS-demo/simple/workspace/src /home/e/ROS-demo/simple/workspace/src/my_service /home/e/ROS-demo/simple/workspace/build /home/e/ROS-demo/simple/workspace/build/my_service /home/e/ROS-demo/simple/workspace/build/my_service/CMakeFiles/my_service_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/my_service /workspace/simple/workspace/build /workspace/simple/workspace/build/my_service /workspace/simple/workspace/build/my_service/CMakeFiles/my_service_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_service/CMakeFiles/my_service_generate_messages.dir/depend
 

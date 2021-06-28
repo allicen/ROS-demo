@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_message_generate_messages_cpp"
-  "/home/e/ROS-demo/simple/workspace/devel/include/my_message/Message1.h"
+  "/workspace/simple/workspace/devel/include/my_message/Message1.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-prefix=/home/e/ROS-demo/simple/workspace/devel
+prefix=/workspace/simple/workspace/devel
 
 Name: rviz_manip
 Description: Description of rviz_manip

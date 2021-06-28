@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e/ROS-demo/simple/workspace/src
+CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e/ROS-demo/simple/workspace/build
+CMAKE_BINARY_DIR = /workspace/simple/workspace/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ client_server/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_generate_
 .PHONY : client_server/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 client_server/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/e/ROS-demo/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /workspace/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : client_server/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 client_server/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/e/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS-demo/simple/workspace/src /home/e/ROS-demo/simple/workspace/src/client_server /home/e/ROS-demo/simple/workspace/build /home/e/ROS-demo/simple/workspace/build/client_server /home/e/ROS-demo/simple/workspace/build/client_server/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/client_server /workspace/simple/workspace/build /workspace/simple/workspace/build/client_server /workspace/simple/workspace/build/client_server/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : client_server/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_message_generate_messages_py"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_message/msg/_Message1.py"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_message/msg/__init__.py"
+  "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_message/msg/_Message1.py"
+  "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_message/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

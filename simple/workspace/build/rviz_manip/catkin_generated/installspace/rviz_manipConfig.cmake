@@ -67,14 +67,14 @@ set(rviz_manip_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_manip_SOURCE_PREFIX /home/e/ROS-demo/simple/workspace/src/rviz_manip)
-  set(rviz_manip_DEVEL_PREFIX /home/e/ROS-demo/simple/workspace/devel)
+  set(rviz_manip_SOURCE_PREFIX /workspace/simple/workspace/src/rviz_manip)
+  set(rviz_manip_DEVEL_PREFIX /workspace/simple/workspace/devel)
   set(rviz_manip_INSTALL_PREFIX "")
   set(rviz_manip_PREFIX ${rviz_manip_DEVEL_PREFIX})
 else()
   set(rviz_manip_SOURCE_PREFIX "")
   set(rviz_manip_DEVEL_PREFIX "")
-  set(rviz_manip_INSTALL_PREFIX /home/e/ROS-demo/simple/workspace/install)
+  set(rviz_manip_INSTALL_PREFIX /workspace/simple/workspace/install)
   set(rviz_manip_PREFIX ${rviz_manip_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/e/ROS-demo/simple/workspace/install/lib;/home/e/ROS-demo/simple/workspace/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /workspace/simple/workspace/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

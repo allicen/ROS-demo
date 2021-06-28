@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e/ROS-demo/simple/workspace/src
+CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e/ROS-demo/simple/workspace/build
+CMAKE_BINARY_DIR = /workspace/simple/workspace/build
 
 # Utility rule file for my_message_gencpp.
 
@@ -63,10 +63,10 @@ my_message/CMakeFiles/my_message_gencpp.dir/build: my_message_gencpp
 .PHONY : my_message/CMakeFiles/my_message_gencpp.dir/build
 
 my_message/CMakeFiles/my_message_gencpp.dir/clean:
-	cd /home/e/ROS-demo/simple/workspace/build/my_message && $(CMAKE_COMMAND) -P CMakeFiles/my_message_gencpp.dir/cmake_clean.cmake
+	cd /workspace/simple/workspace/build/my_message && $(CMAKE_COMMAND) -P CMakeFiles/my_message_gencpp.dir/cmake_clean.cmake
 .PHONY : my_message/CMakeFiles/my_message_gencpp.dir/clean
 
 my_message/CMakeFiles/my_message_gencpp.dir/depend:
-	cd /home/e/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS-demo/simple/workspace/src /home/e/ROS-demo/simple/workspace/src/my_message /home/e/ROS-demo/simple/workspace/build /home/e/ROS-demo/simple/workspace/build/my_message /home/e/ROS-demo/simple/workspace/build/my_message/CMakeFiles/my_message_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/my_message /workspace/simple/workspace/build /workspace/simple/workspace/build/my_message /workspace/simple/workspace/build/my_message/CMakeFiles/my_message_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_message/CMakeFiles/my_message_gencpp.dir/depend
 

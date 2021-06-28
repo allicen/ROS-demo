@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/writer.dir/src/writer.cpp.o"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/writer_my_message/writer.pdb"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/writer_my_message/writer"
+  "/workspace/simple/workspace/devel/lib/writer_my_message/writer.pdb"
+  "/workspace/simple/workspace/devel/lib/writer_my_message/writer"
 )
 
 # Per-language clean rules from dependency scanning.

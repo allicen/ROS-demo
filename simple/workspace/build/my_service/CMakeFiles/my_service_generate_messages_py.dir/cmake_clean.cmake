@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_service_generate_messages_py"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_service/srv/_AddInts.py"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_service/srv/__init__.py"
+  "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_service/srv/_AddInts.py"
+  "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_service/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

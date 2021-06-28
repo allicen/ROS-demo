@@ -1,4 +1,4 @@
-prefix=/home/e/ROS-demo/simple/workspace/install
+prefix=/workspace/simple/workspace/install
 
 Name: hello
 Description: Description of hello

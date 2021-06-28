@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/server.dir/src/subscriber.cpp.o"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/client_server/server.pdb"
-  "/home/e/ROS-demo/simple/workspace/devel/lib/client_server/server"
+  "/workspace/simple/workspace/devel/lib/client_server/server.pdb"
+  "/workspace/simple/workspace/devel/lib/client_server/server"
 )
 
 # Per-language clean rules from dependency scanning.

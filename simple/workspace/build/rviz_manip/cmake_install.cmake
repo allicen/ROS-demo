@@ -1,8 +1,8 @@
-# Install script for directory: /home/e/ROS-demo/simple/workspace/src/rviz_manip
+# Install script for directory: /workspace/simple/workspace/src/rviz_manip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/e/ROS-demo/simple/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/workspace/simple/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e/ROS-demo/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manip.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manip.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_manip/cmake" TYPE FILE FILES
-    "/home/e/ROS-demo/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manipConfig.cmake"
-    "/home/e/ROS-demo/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manipConfig-version.cmake"
+    "/workspace/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manipConfig.cmake"
+    "/workspace/simple/workspace/build/rviz_manip/catkin_generated/installspace/rviz_manipConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_manip" TYPE FILE FILES "/home/e/ROS-demo/simple/workspace/src/rviz_manip/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_manip" TYPE FILE FILES "/workspace/simple/workspace/src/rviz_manip/package.xml")
 endif()
 

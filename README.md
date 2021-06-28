@@ -110,3 +110,39 @@
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>
 <p>Вызвать шаблон - двойной Tab</p>
+
+<h4>Docker</h4>
+<p>Официальный образ ROS: https://registry.hub.docker.com/_/ros/</p>
+<p>Собрать контейнер Dockerfile:</p>
+<p><code>
+docker build -t ros-img -f /home/e/ROS-demo/Dockerfile /home/e/ROS-demo --network=host --build-arg from=ubuntu:18.04
+</code></p>
+
+<p>Сохранить/экспортировать docker-образ в tar-файл:</p>
+<p><code>docker save ros-img > /home/e/ROS-demo/ros-img.tar</code></p>
+
+<p>Загрузить docker-образ с помощью команды:</p>
+<p><code>docker load < /home/e/ROS-demo/ros-img.tar</code></p>
+
+<p>Запустить Docker-образ</p>
+<p><code>xhost +local:docker || true</code></p>
+<p><code>
+    docker run  -ti --rm \
+        -e "DISPLAY" \
+        -e "QT_X11_NO_MITSHM=1" \
+        -v "/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+        -e XAUTHORITY \
+        -v /dev:/dev \
+        -v /home/e/ROS-demo:/workspace \
+       --net=host \
+       --privileged \
+       --name ros ros-img
+</code></p>
+
+<p>Зайти в контейнер</p>
+<p><code>sudo docker exec -ti ros bash</code></p>
+
+
+
+
+

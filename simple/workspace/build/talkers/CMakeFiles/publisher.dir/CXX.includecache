@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/e/ROS-demo/simple/workspace/src/talkers/src/publisher.cpp
-ros/ros.h
-/home/e/ROS-demo/simple/workspace/src/talkers/src/ros/ros.h
-geometry_msgs/Twist.h
-/home/e/ROS-demo/simple/workspace/src/talkers/src/geometry_msgs/Twist.h
-
 /opt/ros/melodic/include/geometry_msgs/Twist.h
 string
 -
@@ -709,4 +703,10 @@ vector
 -
 time.h
 -
+
+/workspace/simple/workspace/src/talkers/src/publisher.cpp
+ros/ros.h
+/workspace/simple/workspace/src/talkers/src/ros/ros.h
+geometry_msgs/Twist.h
+/workspace/simple/workspace/src/talkers/src/geometry_msgs/Twist.h
 

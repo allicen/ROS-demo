@@ -6,52 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/e/ROS-demo/simple/workspace/devel/include/my_service/AddInts.h
-ros/service_traits.h
--
-my_service/AddIntsRequest.h
--
-my_service/AddIntsResponse.h
--
-
-/home/e/ROS-demo/simple/workspace/devel/include/my_service/AddIntsRequest.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/e/ROS-demo/simple/workspace/devel/include/my_service/AddIntsResponse.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/home/e/ROS-demo/simple/workspace/src/client_server/src/subscriber.cpp
-ros/ros.h
-/home/e/ROS-demo/simple/workspace/src/client_server/src/ros/ros.h
-my_service/AddInts.h
-/home/e/ROS-demo/simple/workspace/src/client_server/src/my_service/AddInts.h
-
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
@@ -260,10 +214,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/melodic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/melodic/include/ros/message_traits.h
@@ -713,4 +663,10 @@ vector
 -
 time.h
 -
+
+/workspace/simple/workspace/src/client_server/src/subscriber.cpp
+ros/ros.h
+/workspace/simple/workspace/src/client_server/src/ros/ros.h
+my_service/AddInts.h
+/workspace/simple/workspace/src/client_server/src/my_service/AddInts.h
 

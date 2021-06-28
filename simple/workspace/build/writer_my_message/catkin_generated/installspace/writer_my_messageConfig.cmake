@@ -67,14 +67,14 @@ set(writer_my_message_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(writer_my_message_SOURCE_PREFIX /home/e/ROS-demo/simple/workspace/src/writer_my_message)
-  set(writer_my_message_DEVEL_PREFIX /home/e/ROS-demo/simple/workspace/devel)
+  set(writer_my_message_SOURCE_PREFIX /workspace/simple/workspace/src/writer_my_message)
+  set(writer_my_message_DEVEL_PREFIX /workspace/simple/workspace/devel)
   set(writer_my_message_INSTALL_PREFIX "")
   set(writer_my_message_PREFIX ${writer_my_message_DEVEL_PREFIX})
 else()
   set(writer_my_message_SOURCE_PREFIX "")
   set(writer_my_message_DEVEL_PREFIX "")
-  set(writer_my_message_INSTALL_PREFIX /home/e/ROS-demo/simple/workspace/install)
+  set(writer_my_message_INSTALL_PREFIX /workspace/simple/workspace/install)
   set(writer_my_message_PREFIX ${writer_my_message_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/e/ROS-demo/simple/workspace/install/lib;/home/e/ROS-demo/simple/workspace/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /workspace/simple/workspace/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,2 +1,2 @@
 client_server:hello:my_message:my_service:rviz_manip:talkers:writer_my_message
--DCATKIN_DEVEL_PREFIX=/home/e/ROS-demo/simple/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/e/ROS-demo/simple/workspace/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/workspace/simple/workspace/devel -DCMAKE_INSTALL_PREFIX=/workspace/simple/workspace/install -G Unix Makefiles
