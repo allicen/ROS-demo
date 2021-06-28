@@ -126,7 +126,7 @@ docker build -t ros-img -f /home/e/ROS-demo/Dockerfile /home/e/ROS-demo --networ
 
 <p>Запустить Docker-образ</p>
 <p><code>xhost +local:docker || true</code></p>
-<p><code>
+<pre>
     docker run  -ti --rm \
         -e "DISPLAY" \
         -e "QT_X11_NO_MITSHM=1" \
@@ -137,7 +137,7 @@ docker build -t ros-img -f /home/e/ROS-demo/Dockerfile /home/e/ROS-demo --networ
        --net=host \
        --privileged \
        --name ros ros-img
-</code></p>
+</pre>
 
 <p>Зайти в контейнер</p>
 <p><code>sudo docker exec -ti ros bash</code></p>
