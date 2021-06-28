@@ -1,0 +1,7 @@
+.idea
+.git
+*/build/
+*/devel/
+ros-img.tar
+ros-base-img.tar
+ubuntu-img.tar
