@@ -1,8 +1,0 @@
-prefix=/home/e/ROS-demo/armbot/devel
-
-Name: first_world
-Description: Description of first_world
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
