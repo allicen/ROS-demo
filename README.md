@@ -127,14 +127,14 @@
 <p>Официальный образ ROS: https://registry.hub.docker.com/_/ros/</p>
 <p>Собрать контейнер Dockerfile:</p>
 <p><code>
-docker build -t ros-img -f /home/e/ROS-demo/Dockerfile /home/e/ROS-demo --network=host --build-arg from=ubuntu:18.04
+docker build -t ros-img -f /home/e/ROS/ROS-demo/Dockerfile /home/e/ROS/ROS-demo --network=host --build-arg from=ubuntu:18.04
 </code></p>
 
 <p>Сохранить/экспортировать docker-образ в tar-файл:</p>
-<p><code>docker save ros-img > /home/e/ROS-demo/ros-img.tar</code></p>
+<p><code>docker save ros-img > /home/e/ROS/ROS-demo/ros-img.tar</code></p>
 
 <p>Загрузить docker-образ с помощью команды:</p>
-<p><code>docker load < /home/e/ROS-demo/ros-img.tar</code></p>
+<p><code>docker load < /home/e/ROS/ROS-demo/ros-img.tar</code></p>
 
 <p>Запустить Docker-образ</p>
 <p><code>xhost +local:docker || true</code></p>
