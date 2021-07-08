@@ -9,6 +9,7 @@
 <p>Скачать доп. пакет: <code>sudo apt-get install ros-melodic-gmapping</code></p>
 <p>Путь до пакета: <code>rospack find gmapping</code></p>
 <p>Содержимое пакета: <code>rosls gmapping</code></p>
+<p><br /></p>
 
 <h4>Запуск простой ноды</h4>
 <p>Запуск ROS в 1м терминале: <code>roscore</code></p>
@@ -27,6 +28,7 @@
 <p>Вызвать сервис: <code>rosservice call /clear</code></p>
 <p>Показать информацию о сервисе: <code>rossrv show turtlesim/TeleportAbsolute</code> (поля и возвращаемое значение после ---)</p>
 <p>Вызвать сервис: <code>rosservice call /turtle1/teleport_absolute</code> + 2 tab</p>
+<p><br /></p>
 
 <h4>Создание пакета</h4>
 <p>Создать папку: <code>mkdir -p workspace/src</code></p>
@@ -37,6 +39,7 @@
 <p>Создать пакет для С++: <code>catkin_create_pkg talkers roscpp</code></p>
 <p>Просмотр файла: <code>gedit talkers/package.xml</code></p>
 <p>Создать пакет сразу с зависимостями <code>catkin_create_pkg my_service message_generation message_runtime</code></p>
+<p><br /></p>
 
 <h4>Запуск ноды</h4>
 <pre>
@@ -46,10 +49,12 @@
 	source devel/setup.bash // чтобы находить путь
 	rosrun talkers publisher
 </pre>
+<p><br /></p>
 
 <h4>Сообщения</h4>
 <p>Просмотр всех сообщений: <code>rosmsg list</code></p>
 <p>Свои сообщения сохранять в папке <code>msg</code> внутри пакета</p>
+<p><br /></p>
 
 <h4>Создание сервиса</h4>
 <p>Все сервисы располагаются внутри пакета в папке <code>srv</code></p>
@@ -57,10 +62,12 @@
 <p>Команда <code>rossrv</code> работает с типами. <code>rossrv list</code> выведет все сервисы, которые есть в ROS</p>
 <p>Команда <code>service list</code> выводит сервисы, которые используются в данный момент эмуляции.</p>
 <p>Вызвать сервис <code>rosservice call /add_two_ints "first: 10 second: 52"</code> (add_two_ints - функция, в кавычувх шаблонные поля)</p>
+<p><br /></p>
 
 <h4>rViz</h4>
 <p>Запустить ноду <code>rosrun rviz rviz</code></p>
 <p>Shift+мышь - перемещение вверх/вниз</p>
+<p><br /></p>
 
 <h4>Launch-файл</h4>
 <p>Указываются ноды, которые будут запущены.</p>
@@ -73,6 +80,7 @@
 </pre>
 <p>Автоматически запускает roscore.</p>
 <p>Запкск файла: <code>roslaunch talkers run.launch</code> (из <code>workspace</code>)</p>
+<p><br /></p>
 
 <h4>Gazebo</h4>
 <p>Документация:</p>
@@ -83,9 +91,11 @@
 <p>Склонировать репозиторий в workspace/src: <code>git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b melodic-devel</code></p>
 <p>Собрать проект <code>catkin_make</code></p>
 <p>Запустить <code>roscore</code> и gazebo: <code>rosrun gazebo_ros gazebo</code></p>
+<p><br /></p>
 
 <h4>Пакет преобразований TF</h4>
 <p>Преобразует координаты одного объекта в координаты другого</p>
+<p><br /></p>
 
 <h4>Arduino и ROS</h4>
 <p><a href="http://wiki.ros.org/rosserial_arduino/Tutorials">Документация</a></p>
@@ -106,10 +116,12 @@
 <p>В 3 терминале работаем (например, проверяем, список топиков <code>rostopic list</code>) и выводим сообщения из топика 
 <code>rostopic echo chatter</code> и строим rqt-граф <code>rqt_graph</code></p>
 <p>Пример программы можно взять из примеров для <code>ros_lib</code></p>
+<p><br /></p>
 
 <h4>Прочее</h4>
 <p>Установить move_base: <code>sudo apt-get install ros-melodic-navigation</code></p>
 <p>Вызвать шаблон - двойной Tab</p>
+<p><br /></p>
 
 <h4>Docker</h4>
 <p>Официальный образ ROS: https://registry.hub.docker.com/_/ros/</p>
@@ -141,6 +153,25 @@ docker build -t ros-img -f /home/e/ROS-demo/Dockerfile /home/e/ROS-demo --networ
 
 <p>Зайти в контейнер</p>
 <p><code>sudo docker exec -ti ros bash</code></p>
+<p><br /></p>
+
+<h4>MoveIt!</h4>
+<p><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html#install-ros-and-catkin">Руководство</a></p>
+<p><a href="https://github.com/ros-planning/moveit_tutorials/tree/melodic-devel">Руководство на GitHub</a></p>
+<p><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html">Создание конфигурации</a></p>
+<p><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/ikfast/ikfast_tutorial.html">Кинематика робота</a></p>
+<p>Уставновить зависимости в рабочее пространство:</p>
+<pre>
+cd ~/ws_moveit/src
+rosdep install -y --from-paths . --ignore-src --rosdistro melodic
+</pre>
+<p>Сконфигурировать рабочее пространство:</p>
+<pre>
+cd ~/ws_moveit
+catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
+catkin build
+</pre>
+<p>Прописать ссылки: <code>source ~/ws_moveit/devel/setup.bash</code></p>
 
 
 
