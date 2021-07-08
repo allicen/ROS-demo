@@ -2,6 +2,7 @@
 .git
 */build/
 */devel/
+*/logs/
 ros-img.tar
 ros-base-img.tar
 ubuntu-img.tar
