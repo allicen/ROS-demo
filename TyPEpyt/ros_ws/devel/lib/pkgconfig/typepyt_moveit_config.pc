@@ -1,0 +1,8 @@
+prefix=/home/e/ROS/ROS-demo/TyPEpyt/ros_ws/devel
+
+Name: typepyt_moveit_config
+Description: Description of typepyt_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
