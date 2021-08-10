@@ -1,4 +1,4 @@
-prefix=/workspace/simple/workspace/install
+prefix=/home/e/ROS/ROS-demo/simple/workspace/install
 
 Name: client_server
 Description: Description of client_server

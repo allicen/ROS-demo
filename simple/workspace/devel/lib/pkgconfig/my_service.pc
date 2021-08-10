@@ -1,8 +1,8 @@
-prefix=/workspace/simple/workspace/devel
+prefix=/home/e/ROS/ROS-demo/simple/workspace/devel
 
 Name: my_service
 Description: Description of my_service
 Version: 0.0.0
-Cflags: -I/workspace/simple/workspace/devel/include
+Cflags: -I/home/e/ROS/ROS-demo/simple/workspace/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

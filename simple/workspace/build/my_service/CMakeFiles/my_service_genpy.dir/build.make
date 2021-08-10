@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
+CMAKE_SOURCE_DIR = /home/e/ROS/ROS-demo/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/simple/workspace/build
+CMAKE_BINARY_DIR = /home/e/ROS/ROS-demo/simple/workspace/build
 
 # Utility rule file for my_service_genpy.
 
@@ -63,10 +63,10 @@ my_service/CMakeFiles/my_service_genpy.dir/build: my_service_genpy
 .PHONY : my_service/CMakeFiles/my_service_genpy.dir/build
 
 my_service/CMakeFiles/my_service_genpy.dir/clean:
-	cd /workspace/simple/workspace/build/my_service && $(CMAKE_COMMAND) -P CMakeFiles/my_service_genpy.dir/cmake_clean.cmake
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/my_service && $(CMAKE_COMMAND) -P CMakeFiles/my_service_genpy.dir/cmake_clean.cmake
 .PHONY : my_service/CMakeFiles/my_service_genpy.dir/clean
 
 my_service/CMakeFiles/my_service_genpy.dir/depend:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/my_service /workspace/simple/workspace/build /workspace/simple/workspace/build/my_service /workspace/simple/workspace/build/my_service/CMakeFiles/my_service_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS/ROS-demo/simple/workspace/src /home/e/ROS/ROS-demo/simple/workspace/src/my_service /home/e/ROS/ROS-demo/simple/workspace/build /home/e/ROS/ROS-demo/simple/workspace/build/my_service /home/e/ROS/ROS-demo/simple/workspace/build/my_service/CMakeFiles/my_service_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_service/CMakeFiles/my_service_genpy.dir/depend
 

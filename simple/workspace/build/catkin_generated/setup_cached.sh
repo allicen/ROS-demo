@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/workspace/simple/workspace/devel:$CMAKE_PREFIX_PATH"
-export PWD='/workspace/simple/workspace/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/workspace/simple/workspace/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/workspace/simple/workspace/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/e/ROS/ROS-demo/simple/workspace/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/e/ROS/ROS-demo/simple/workspace/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/e/ROS/ROS-demo/simple/workspace/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/e/ROS/ROS-demo/simple/workspace/src:$ROS_PACKAGE_PATH"

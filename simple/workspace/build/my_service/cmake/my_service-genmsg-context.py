@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/workspace/simple/workspace/src/my_service/srv/AddInts.srv"
+services_str = "/home/e/ROS/ROS-demo/simple/workspace/src/my_service/srv/AddInts.srv"
 pkg_name = "my_service"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

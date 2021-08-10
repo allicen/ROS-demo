@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
+CMAKE_SOURCE_DIR = /home/e/ROS/ROS-demo/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/simple/workspace/build
+CMAKE_BINARY_DIR = /home/e/ROS/ROS-demo/simple/workspace/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ hello/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_exported
 .PHONY : hello/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 hello/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /workspace/simple/workspace/build/hello && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/hello && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : hello/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 hello/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/hello /workspace/simple/workspace/build /workspace/simple/workspace/build/hello /workspace/simple/workspace/build/hello/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS/ROS-demo/simple/workspace/src /home/e/ROS/ROS-demo/simple/workspace/src/hello /home/e/ROS/ROS-demo/simple/workspace/build /home/e/ROS/ROS-demo/simple/workspace/build/hello /home/e/ROS/ROS-demo/simple/workspace/build/hello/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hello/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

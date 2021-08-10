@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
+CMAKE_SOURCE_DIR = /home/e/ROS/ROS-demo/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/simple/workspace/build
+CMAKE_BINARY_DIR = /home/e/ROS/ROS-demo/simple/workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/simple/workspace/build/CMakeFiles /workspace/simple/workspace/build/rviz_manip/CMakeFiles/progress.marks
-	cd /workspace/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/simple/workspace/build/CMakeFiles 0
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/e/ROS/ROS-demo/simple/workspace/build/CMakeFiles /home/e/ROS/ROS-demo/simple/workspace/build/rviz_manip/CMakeFiles/progress.marks
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/e/ROS/ROS-demo/simple/workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspace/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/clean
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspace/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/preinstall
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspace/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/preinstall
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rviz_manip/CMakeFiles/publish_point.dir/rule:
-	cd /workspace/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/CMakeFiles/publish_point.dir/rule
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 rviz_manip/CMakeFiles/publish_point.dir/rule
 .PHONY : rviz_manip/CMakeFiles/publish_point.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ publish_point: rviz_manip/CMakeFiles/publish_point.dir/rule
 
 # fast build rule for target.
 publish_point/fast:
-	cd /workspace/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/build
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/build
 .PHONY : publish_point/fast
 
 src/publish_marker.o: src/publish_marker.cpp.o
@@ -188,7 +188,7 @@ src/publish_marker.o: src/publish_marker.cpp.o
 
 # target to build an object file
 src/publish_marker.cpp.o:
-	cd /workspace/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.o
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.o
 .PHONY : src/publish_marker.cpp.o
 
 src/publish_marker.i: src/publish_marker.cpp.i
@@ -197,7 +197,7 @@ src/publish_marker.i: src/publish_marker.cpp.i
 
 # target to preprocess a source file
 src/publish_marker.cpp.i:
-	cd /workspace/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.i
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.i
 .PHONY : src/publish_marker.cpp.i
 
 src/publish_marker.s: src/publish_marker.cpp.s
@@ -206,7 +206,7 @@ src/publish_marker.s: src/publish_marker.cpp.s
 
 # target to generate assembly for a file
 src/publish_marker.cpp.s:
-	cd /workspace/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.s
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(MAKE) -f rviz_manip/CMakeFiles/publish_point.dir/build.make rviz_manip/CMakeFiles/publish_point.dir/src/publish_marker.cpp.s
 .PHONY : src/publish_marker.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

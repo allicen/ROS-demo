@@ -1,11 +1,11 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/workspace/simple/workspace/src/my_message/msg/Message1.msg"
+messages_str = "/home/e/ROS/ROS-demo/simple/workspace/src/my_message/msg/Message1.msg"
 services_str = ""
 pkg_name = "my_message"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
-dep_include_paths_str = "my_message;/workspace/simple/workspace/src/my_message/msg;std_msgs;/opt/ros/melodic/share/std_msgs/cmake/../msg"
+dep_include_paths_str = "my_message;/home/e/ROS/ROS-demo/simple/workspace/src/my_message/msg;std_msgs;/opt/ros/melodic/share/std_msgs/cmake/../msg"
 PYTHON_EXECUTABLE = "/usr/bin/python2"
 package_has_static_sources = '' == 'TRUE'
 genmsg_check_deps_script = "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

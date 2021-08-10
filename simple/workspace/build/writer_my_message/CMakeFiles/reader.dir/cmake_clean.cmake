@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reader.dir/src/reader.cpp.o"
-  "/workspace/simple/workspace/devel/lib/writer_my_message/reader.pdb"
-  "/workspace/simple/workspace/devel/lib/writer_my_message/reader"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/writer_my_message/reader.pdb"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/writer_my_message/reader"
 )
 
 # Per-language clean rules from dependency scanning.

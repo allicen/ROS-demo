@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/publisher.dir/src/publisher.cpp.o"
-  "/workspace/simple/workspace/devel/lib/talkers/publisher.pdb"
-  "/workspace/simple/workspace/devel/lib/talkers/publisher"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/talkers/publisher.pdb"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/talkers/publisher"
 )
 
 # Per-language clean rules from dependency scanning.

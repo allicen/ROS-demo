@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/simple/workspace/src/writer_my_message
+# Install script for directory: /home/e/ROS/ROS-demo/simple/workspace/src/writer_my_message
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/simple/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/e/ROS/ROS-demo/simple/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_message.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_message.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/writer_my_message/cmake" TYPE FILE FILES
-    "/workspace/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_messageConfig.cmake"
-    "/workspace/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_messageConfig-version.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_messageConfig.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/writer_my_message/catkin_generated/installspace/writer_my_messageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/writer_my_message" TYPE FILE FILES "/workspace/simple/workspace/src/writer_my_message/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/writer_my_message" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/writer_my_message/package.xml")
 endif()
 

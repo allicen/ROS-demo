@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
+CMAKE_SOURCE_DIR = /home/e/ROS/ROS-demo/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/simple/workspace/build
+CMAKE_BINARY_DIR = /home/e/ROS/ROS-demo/simple/workspace/build
 
 # Include any dependencies generated for this target.
 include client_server/CMakeFiles/server.dir/depend.make
@@ -58,17 +58,17 @@ include client_server/CMakeFiles/server.dir/progress.make
 include client_server/CMakeFiles/server.dir/flags.make
 
 client_server/CMakeFiles/server.dir/src/subscriber.cpp.o: client_server/CMakeFiles/server.dir/flags.make
-client_server/CMakeFiles/server.dir/src/subscriber.cpp.o: /workspace/simple/workspace/src/client_server/src/subscriber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspace/simple/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object client_server/CMakeFiles/server.dir/src/subscriber.cpp.o"
-	cd /workspace/simple/workspace/build/client_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/subscriber.cpp.o -c /workspace/simple/workspace/src/client_server/src/subscriber.cpp
+client_server/CMakeFiles/server.dir/src/subscriber.cpp.o: /home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e/ROS/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object client_server/CMakeFiles/server.dir/src/subscriber.cpp.o"
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/subscriber.cpp.o -c /home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/subscriber.cpp
 
 client_server/CMakeFiles/server.dir/src/subscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/subscriber.cpp.i"
-	cd /workspace/simple/workspace/build/client_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/simple/workspace/src/client_server/src/subscriber.cpp > CMakeFiles/server.dir/src/subscriber.cpp.i
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/subscriber.cpp > CMakeFiles/server.dir/src/subscriber.cpp.i
 
 client_server/CMakeFiles/server.dir/src/subscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/subscriber.cpp.s"
-	cd /workspace/simple/workspace/build/client_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/simple/workspace/src/client_server/src/subscriber.cpp -o CMakeFiles/server.dir/src/subscriber.cpp.s
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/subscriber.cpp -o CMakeFiles/server.dir/src/subscriber.cpp.s
 
 client_server/CMakeFiles/server.dir/src/subscriber.cpp.o.requires:
 
@@ -88,32 +88,32 @@ server_OBJECTS = \
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
-/workspace/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/src/subscriber.cpp.o
-/workspace/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/build.make
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libroscpp.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libroscpp_serialization.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libxmlrpcpp.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librostime.so
-/workspace/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libcpp_common.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libpthread.so
-/workspace/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/workspace/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspace/simple/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /workspace/simple/workspace/devel/lib/client_server/server"
-	cd /workspace/simple/workspace/build/client_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/src/subscriber.cpp.o
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/build.make
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libroscpp.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/librostime.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /opt/ros/melodic/lib/libcpp_common.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server: client_server/CMakeFiles/server.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e/ROS/ROS-demo/simple/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server"
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-client_server/CMakeFiles/server.dir/build: /workspace/simple/workspace/devel/lib/client_server/server
+client_server/CMakeFiles/server.dir/build: /home/e/ROS/ROS-demo/simple/workspace/devel/lib/client_server/server
 
 .PHONY : client_server/CMakeFiles/server.dir/build
 
@@ -122,10 +122,10 @@ client_server/CMakeFiles/server.dir/requires: client_server/CMakeFiles/server.di
 .PHONY : client_server/CMakeFiles/server.dir/requires
 
 client_server/CMakeFiles/server.dir/clean:
-	cd /workspace/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/server.dir/cmake_clean.cmake
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/server.dir/cmake_clean.cmake
 .PHONY : client_server/CMakeFiles/server.dir/clean
 
 client_server/CMakeFiles/server.dir/depend:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/client_server /workspace/simple/workspace/build /workspace/simple/workspace/build/client_server /workspace/simple/workspace/build/client_server/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS/ROS-demo/simple/workspace/src /home/e/ROS/ROS-demo/simple/workspace/src/client_server /home/e/ROS/ROS-demo/simple/workspace/build /home/e/ROS/ROS-demo/simple/workspace/build/client_server /home/e/ROS/ROS-demo/simple/workspace/build/client_server/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : client_server/CMakeFiles/server.dir/depend
 

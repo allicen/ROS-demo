@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/simple/workspace/src/my_message
+# Install script for directory: /home/e/ROS/ROS-demo/simple/workspace/src/my_message
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/simple/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/e/ROS/ROS-demo/simple/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/msg" TYPE FILE FILES "/workspace/simple/workspace/src/my_message/msg/Message1.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/msg" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/my_message/msg/Message1.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/cmake" TYPE FILE FILES "/workspace/simple/workspace/build/my_message/catkin_generated/installspace/my_message-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/cmake" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_message/catkin_generated/installspace/my_message-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/include/my_message")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/include/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/roseus/ros/my_message")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/roseus/ros/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/common-lisp/ros/my_message")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/common-lisp/ros/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/gennodejs/ros/my_message")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/gennodejs/ros/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_message")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_message")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_message")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/simple/workspace/build/my_message/catkin_generated/installspace/my_message.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_message/catkin_generated/installspace/my_message.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/cmake" TYPE FILE FILES "/workspace/simple/workspace/build/my_message/catkin_generated/installspace/my_message-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/cmake" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_message/catkin_generated/installspace/my_message-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message/cmake" TYPE FILE FILES
-    "/workspace/simple/workspace/build/my_message/catkin_generated/installspace/my_messageConfig.cmake"
-    "/workspace/simple/workspace/build/my_message/catkin_generated/installspace/my_messageConfig-version.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/my_message/catkin_generated/installspace/my_messageConfig.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/my_message/catkin_generated/installspace/my_messageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message" TYPE FILE FILES "/workspace/simple/workspace/src/my_message/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_message" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/my_message/package.xml")
 endif()
 

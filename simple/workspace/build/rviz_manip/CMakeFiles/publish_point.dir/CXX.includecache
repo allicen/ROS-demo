@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/e/ROS/ROS-demo/simple/workspace/src/rviz_manip/src/publish_marker.cpp
+ros/ros.h
+/home/e/ROS/ROS-demo/simple/workspace/src/rviz_manip/src/ros/ros.h
+visualization_msgs/Marker.h
+/home/e/ROS/ROS-demo/simple/workspace/src/rviz_manip/src/visualization_msgs/Marker.h
+
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
 -
@@ -795,10 +801,4 @@ vector
 -
 time.h
 -
-
-/workspace/simple/workspace/src/rviz_manip/src/publish_marker.cpp
-ros/ros.h
-/workspace/simple/workspace/src/rviz_manip/src/ros/ros.h
-visualization_msgs/Marker.h
-/workspace/simple/workspace/src/rviz_manip/src/visualization_msgs/Marker.h
 

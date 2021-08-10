@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_service_generate_messages_eus"
-  "/workspace/simple/workspace/devel/share/roseus/ros/my_service/srv/AddInts.l"
-  "/workspace/simple/workspace/devel/share/roseus/ros/my_service/manifest.l"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/share/roseus/ros/my_service/srv/AddInts.l"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/share/roseus/ros/my_service/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

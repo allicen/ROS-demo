@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_service_generate_messages_cpp"
-  "/workspace/simple/workspace/devel/include/my_service/AddInts.h"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/include/my_service/AddInts.h"
 )
 
 # Per-language clean rules from dependency scanning.

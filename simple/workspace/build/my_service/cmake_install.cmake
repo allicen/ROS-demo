@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/simple/workspace/src/my_service
+# Install script for directory: /home/e/ROS/ROS-demo/simple/workspace/src/my_service
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/simple/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/e/ROS/ROS-demo/simple/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/srv" TYPE FILE FILES "/workspace/simple/workspace/src/my_service/srv/AddInts.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/srv" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/my_service/srv/AddInts.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/cmake" TYPE FILE FILES "/workspace/simple/workspace/build/my_service/catkin_generated/installspace/my_service-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/cmake" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_service/catkin_generated/installspace/my_service-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/include/my_service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/include/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/roseus/ros/my_service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/roseus/ros/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/common-lisp/ros/my_service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/common-lisp/ros/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/share/gennodejs/ros/my_service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/share/gennodejs/ros/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_service")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/workspace/simple/workspace/devel/lib/python2.7/dist-packages/my_service")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/python2.7/dist-packages/my_service")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/simple/workspace/build/my_service/catkin_generated/installspace/my_service.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_service/catkin_generated/installspace/my_service.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/cmake" TYPE FILE FILES "/workspace/simple/workspace/build/my_service/catkin_generated/installspace/my_service-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/cmake" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/my_service/catkin_generated/installspace/my_service-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service/cmake" TYPE FILE FILES
-    "/workspace/simple/workspace/build/my_service/catkin_generated/installspace/my_serviceConfig.cmake"
-    "/workspace/simple/workspace/build/my_service/catkin_generated/installspace/my_serviceConfig-version.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/my_service/catkin_generated/installspace/my_serviceConfig.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/my_service/catkin_generated/installspace/my_serviceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service" TYPE FILE FILES "/workspace/simple/workspace/src/my_service/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_service" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/my_service/package.xml")
 endif()
 

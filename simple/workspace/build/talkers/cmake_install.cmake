@@ -1,8 +1,8 @@
-# Install script for directory: /workspace/simple/workspace/src/talkers
+# Install script for directory: /home/e/ROS/ROS-demo/simple/workspace/src/talkers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspace/simple/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/e/ROS/ROS-demo/simple/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/workspace/simple/workspace/build/talkers/catkin_generated/installspace/talkers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/build/talkers/catkin_generated/installspace/talkers.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/talkers/cmake" TYPE FILE FILES
-    "/workspace/simple/workspace/build/talkers/catkin_generated/installspace/talkersConfig.cmake"
-    "/workspace/simple/workspace/build/talkers/catkin_generated/installspace/talkersConfig-version.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/talkers/catkin_generated/installspace/talkersConfig.cmake"
+    "/home/e/ROS/ROS-demo/simple/workspace/build/talkers/catkin_generated/installspace/talkersConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/talkers" TYPE FILE FILES "/workspace/simple/workspace/src/talkers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/talkers" TYPE FILE FILES "/home/e/ROS/ROS-demo/simple/workspace/src/talkers/package.xml")
 endif()
 

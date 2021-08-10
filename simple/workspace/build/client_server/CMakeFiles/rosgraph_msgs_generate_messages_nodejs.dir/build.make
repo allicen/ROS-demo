@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/simple/workspace/src
+CMAKE_SOURCE_DIR = /home/e/ROS/ROS-demo/simple/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/simple/workspace/build
+CMAKE_BINARY_DIR = /home/e/ROS/ROS-demo/simple/workspace/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: rosgr
 .PHONY : client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /workspace/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/e/ROS/ROS-demo/simple/workspace/build/client_server && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /workspace/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/simple/workspace/src /workspace/simple/workspace/src/client_server /workspace/simple/workspace/build /workspace/simple/workspace/build/client_server /workspace/simple/workspace/build/client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e/ROS/ROS-demo/simple/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e/ROS/ROS-demo/simple/workspace/src /home/e/ROS/ROS-demo/simple/workspace/src/client_server /home/e/ROS/ROS-demo/simple/workspace/build /home/e/ROS/ROS-demo/simple/workspace/build/client_server /home/e/ROS/ROS-demo/simple/workspace/build/client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : client_server/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

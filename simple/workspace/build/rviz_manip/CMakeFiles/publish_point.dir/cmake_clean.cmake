@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/publish_point.dir/src/publish_marker.cpp.o"
-  "/workspace/simple/workspace/devel/lib/rviz_manip/publish_point.pdb"
-  "/workspace/simple/workspace/devel/lib/rviz_manip/publish_point"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/rviz_manip/publish_point.pdb"
+  "/home/e/ROS/ROS-demo/simple/workspace/devel/lib/rviz_manip/publish_point"
 )
 
 # Per-language clean rules from dependency scanning.

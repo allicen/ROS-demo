@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/publisher.cpp
+ros/ros.h
+/home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/ros/ros.h
+my_service/AddInts.h
+/home/e/ROS/ROS-demo/simple/workspace/src/client_server/src/my_service/AddInts.h
+iostream
+-
+
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
@@ -662,13 +670,5 @@ string
 vector
 -
 time.h
--
-
-/workspace/simple/workspace/src/client_server/src/publisher.cpp
-ros/ros.h
-/workspace/simple/workspace/src/client_server/src/ros/ros.h
-my_service/AddInts.h
-/workspace/simple/workspace/src/client_server/src/my_service/AddInts.h
-iostream
 -
 

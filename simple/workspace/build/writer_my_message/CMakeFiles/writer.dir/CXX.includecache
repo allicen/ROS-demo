@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/e/ROS/ROS-demo/simple/workspace/src/writer_my_message/src/writer.cpp
+ros/ros.h
+-
+my_message/Message1.h
+-
+stdlib.h
+-
+stdio.h
+-
+sstream
+-
+
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
@@ -662,17 +674,5 @@ string
 vector
 -
 time.h
--
-
-/workspace/simple/workspace/src/writer_my_message/src/writer.cpp
-ros/ros.h
--
-my_message/Message1.h
--
-stdlib.h
--
-stdio.h
--
-sstream
 -
 

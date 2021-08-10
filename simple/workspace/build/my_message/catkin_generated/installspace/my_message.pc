@@ -1,4 +1,4 @@
-prefix=/workspace/simple/workspace/install
+prefix=/home/e/ROS/ROS-demo/simple/workspace/install
 
 Name: my_message
 Description: Description of my_message
