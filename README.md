@@ -172,8 +172,9 @@ catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Re
 catkin build
 </pre>
 <p>Прописать ссылки: <code>source ~/ws_moveit/devel/setup.bash</code></p>
-
-
+<p><strong>Демонстрация в ws_moveit:</strong></p>
+<p>1  терминал <code>roslaunch panda_moveit_config demo.launch</code></p>
+<p>2  терминал <code>roslaunch moveit_tutorials move_group_interface_tutorial.launch</code></p>
 
 
 
